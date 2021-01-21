@@ -1,0 +1,81 @@
+body {
+  color: lightgray;
+  background-image: url('./img/coffeeBeans2.jpg');
+  background-size: auto;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.title {
+  padding: 10px;
+  background-color: rgb(26, 15, 15);
+}
+
+hr {
+  border: 1px solid rgb(26, 15, 15);
+  border-radius: 5px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+  }
+
+
+nav {
+    overflow: hidden;
+    background-color: rgb(26, 15, 15);
+  }
+  
+  
+  nav li {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  article {
+    color: black;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .left-column {
+    float: left;
+  }
+
+  .right-column {
+    float: right;
+
+  }
+
+
+  .recipes {
+    color: black;
+    padding: 20px;
+    margin: 50px 0;
+    background-color: white;
+  }
+
+  section iframe {
+    background-color: white;
+  }
+
+  footer {
+    color:lightgray;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(26, 15, 15);
+  }
+
+  footer p {
+    padding: 10px;
+  }

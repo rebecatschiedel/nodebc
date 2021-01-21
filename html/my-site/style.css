@@ -1,0 +1,99 @@
+.main-navbar {
+    background-color: black;
+    border-radius: 1em;
+
+}
+
+.main-navbar header {
+    text-align: center;
+    color: white;
+}
+
+.main-navbar .navbar {
+    background-color:lightgray;
+    overflow: hidden;
+}
+
+.main-navbar .navbar ul {
+    list-style-type: none;
+    padding-inline-start: 10px;
+    margin-block-start: 0em;
+}
+
+.main-navbar .navbar li {
+    float: left;
+    padding: 10px;
+}
+
+.main-navbar .navbar a:hover {
+    background-color: black;
+    color: lightgray;
+}
+
+.main-navbar .navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+.references {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+.references .card {
+    background-color: lightgray;
+    border-radius: 1em;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    max-height: 150px;
+    overflow: auto;
+}
+
+.card ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.card li {
+    padding: 8px;
+}
+
+.card a {
+    text-decoration: none;
+    border-radius: 1em;
+    color: black;
+    padding: 10px;
+}
+
+.card a:hover {
+    background-color: black;
+    color: white;
+    
+}
+
+.other-projects{
+    display: grid; 
+    grid-template-columns: repeat(3,auto);
+    background-color:darkgray;
+}
+
+.other-projects .card {
+    background-color: white;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 1em;
+    text-align: center;
+}
+
+
+
+.submit {
+    margin: 10px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create User</title>
+    <link rel="stylesheet" href="../my-site/style.css">
+</head>
+<body>
+    <div class="main-navbar">
+        <header>
+          <h1>ComIT HTML</h1>
+        </header>
+        <nav class="navbar">
+          <ul>
+            <li><a href="../my-site/index.html">Home</a></li>
+            <li><a href="../index1.html">Exercise 1</a></li>
+            <li><a href="../index2.html">Exercise 2</a></li>
+            <li><a href="../index3.html">Exercise 3</a></li>
+            <li><a href="../index4.html">Exercise 4</a></li>
+            <li><a href="../ex_5/index.html">Exercise 5</a></li>
+            <li><a href="../ex_6/index.html">Exercise 6</a></li>
+            <li><a href="../ex_7/index.html">Exercise 7</a></li>
+            <li><a href="../index8.html">Exercise 8</a></li>
+            <li><a href="../index10.html">Exercise 10</a></li>
+            <li><a href="../ex_11/index.html">Exercise 11</a></li>
+            <li><a href="../ex_12/index.html">Exercise 12</a></li>
+            <li><a href="../ex_13/index.html">Exercise 13</a></li>
+            <li><a href="../ex_14/index.html">Exercise 14</a></li>
+            <li><a href="../ex_15/index.html">Exercise 15</a></li>
+            <li><a href="../index16.html">Exercise 16</a></li>
+          </ul>
+        </nav>
+      </div>
+      <hr>
+    <h1>Create User</h1>
+    <hr>
+    <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>User Form</legend>    
+                <label>Username:</label>
+                <input type="text" name="username" placeholder="username" size="30" maxlength="12">
+                <label>Password:</label>
+                <input type="password" name="password" size="30" maxlength="8" placeholder="password">
+        </fieldset>
+        <fieldset>
+            <legend>Select your favorite superhero</legend>
+            <label>Superheroes:</label>
+            <input type="radio" name="superheros" value="Superman">Superman
+            <input type="radio" name="superheros" value="Batman" checked="checked">Batman
+            <input type="radio" name="superheros" value="Wonder Woman">Wonder Woman
+            <input type="radio" name="superheros" value="Flash">Flash
+            <input type="radio" name="superheros" value="Thor">Thor
+            <input type="radio" name="superheros" value="Hulk">Hulk
+        </fieldset>
+        <fieldset>
+            <legend>Select your favorite video game</legend>
+            <label>Videogames:</label>
+            <input type="checkbox" name="videogames" value="Fifa">Fifa
+            <input type="checkbox" name="videogames" value="NHL">NHL
+            <input type="checkbox" name="videogames" value="Resident Evil">Resident Evil
+            <input type="checkbox" name="videogames" value="Uncharted">Uncharted
+        </fieldset>
+        <fieldset>
+            <label for="birthday">Select your date of birthday</label>
+            <input type="date" name="birthday"
+            id="birthday" value="1980-04-02">
+        </fieldset>
+        <fieldset>
+            <label for="email">Email</label>
+            <input type="email"
+            id="email" name="Email" placeholder="Email">
+        </fieldset>
+        <fieldset>
+            <label for="url">Personal Site</label>
+            <input type="url"
+            id="url" name="url" placeholder="Personal Site Address">
+        </fieldset>
+
+        <input type="hidden" name="userid" value="2300">
+
+        <input type="image" name="login" src="https://www.freeiconspng.com/uploads/register-button-png-11.png" width="200" alt="Register Button PNG Picture">
+   
+    </form>
+    <form action=" https://www.google.ca/search" method="GET">
+        <label for="search">Search</label>
+        <input type="search" name="q" id="search" placeholder="I want to know about...">
+        <label for="submitSearch"></label>
+        <input type="submit" id="submitSearch" value="submit" name="submit">
+    </form>
+</body>
+</html>
