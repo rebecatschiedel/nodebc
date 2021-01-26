@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Learning CSS</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        position: relative;
+        height: 700px;
+        background-image: linear-gradient(180deg, #666, #ddd);
+        border: 2px solid #ccc;
+      }
+
+      .container div {
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        color: white;
+        text-shadow: 3px 6px 5px #000;
+        font-size: 80px;
+        font-weight: bold;
+      }
+
+      .one {
+        right: 0;
+        bottom: 0;
+      }
+
+      .two {
+        left: 40%;
+        top: 450px;
+      }
+
+      .three {
+        left: 40%;
+        top: 300px;
+      }
+
+      .four {
+        left: 30%;
+        top: 200px;
+      }
+
+      .five {
+        right: 0;
+        bottom: 100px;
+      }
+
+      .six {
+        top: 0;
+        left: 0;
+      }
+
+      .container:hover {
+        background: linear-gradient(180deg, #ddd, #666);
+      }
+
+      .one:hover {
+        color: pink;
+      }
+
+      .two:hover {
+        color: blueviolet;
+      }
+      
+      .three:hover {
+        color: greenyellow;
+      }
+
+      .four:hover {
+        color: orangered;
+      }
+      
+      .five:hover {
+        color: chartreuse;
+      }
+
+      .six:hover {
+        color: chocolate;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="one">Position</div>
+      <div class="two">Absolute</div>
+      <div class="three">Using</div>
+      <div class="four">Your Elements</div>
+      <div class="five">Position all</div>
+      <div class="six">Now you can</div>
+    </div>
+  </body>
+</html>
