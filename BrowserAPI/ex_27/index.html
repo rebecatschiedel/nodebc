@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>It's all JavaScript Baby!!</title>
+    <script>
+        window.onload = () => {
+            const arr = [];
+            let count = 1;
+            while(arr.length < 100) {
+                arr.push(count);
+                count++
+            }
+            
+            let ul = document.createElement('ul');
+            arr.forEach(number => {
+                const li = document.createElement('li');
+                li.innerText = `Item ${number}`;
+                number % 2 === 0 ? li.style.color = '#ddd' : li.style.color = '#eee';
+
+                ul.appendChild(li);
+            })
+            document.body.appendChild(ul);
+        }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
